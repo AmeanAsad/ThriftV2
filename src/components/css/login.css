@@ -1,0 +1,91 @@
+.card-wrapper{
+    width: 100%;
+    /* background: url('../images/background.jpg'); */
+    background-color: azure;
+}
+
+.brand{
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .025em;
+    color: #6772e5 !important;
+
+}
+
+
+.dimmer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    padding-bottom: 8%;
+
+}
+
+.nav-item{
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: .025em;
+    color: #6772e5 !important;
+
+}
+
+.login-wrapper{
+    background: url('../images/background.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.login-button{
+    white-space: nowrap;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 14px;
+    -webkit-box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+    background: #fff;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .025em;
+    color: #6772e5;
+    text-decoration: none;
+    -webkit-transition: all .15s ease;
+    transition: all .15s ease;
+}
+
+.label{
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .025em;
+    color: #6772e5;
+
+}
+.text{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
+}
+.headers{
+    color: #4FB8F9;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 28px;
+
+    
+
+}
+.body1{
+    text-align: left;
+    margin-left: 5%;
+    margin-right:5% ;
+}
+.body2{
+    text-align: left;
+    margin-left: 5%;
+    margin-right:5% ;
+}
+

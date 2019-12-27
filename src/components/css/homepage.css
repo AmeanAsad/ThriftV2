@@ -1,0 +1,118 @@
+
+
+.nav-bar{
+    width: 100%;
+}
+
+.dimmer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    padding-bottom: 8%;
+
+}
+
+.card3-text{
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .025em;
+    color: #337BDC !important;
+}
+
+.header{
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 29px;   
+
+}
+.text{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
+}
+
+.table{
+    color:white !important;
+}
+.table-hover tbody tr:hover td {
+    background: white !important;
+}
+.homepage-wrapper{
+    background: url('../images/background.jpg');
+    background-position: center;
+    background-size: cover;
+
+}
+.card5{
+    margin-left: 4% !important;
+    margin-right:4% !important;
+}
+.card-content1{
+    margin-left:4%;
+    margin-top:4%;
+    margin-right: 2%;
+    height:70vh;
+    margin-bottom: 3%;
+    overflow: wrap;
+}
+.card-content2{
+    margin-left:2%;
+    margin-top:4%;
+    margin-right: 4%;
+    height:70vh;
+    margin-bottom: 3%;
+    overflow: wrap;
+
+}
+.percentage-content{
+    margin-top:2%;
+    margin-right:1%;
+}
+.card-content3{
+    margin-left:4%;
+    margin-top:4%;
+    margin-right: 2%;
+    margin-bottom: 3%;
+}
+.card-content4{
+    margin-left:2%;
+    margin-top:4%;
+    margin-right: 4%;
+    margin-bottom: 3%;
+
+}
+.list-group{
+    margin:1%;
+}
+.card-2{
+    width:100%;
+    height: 70vh;
+}
+.pie{
+    width:600px;
+    height: 600px;
+}
+.form-wrapper{
+    width:100%;
+    margin-left:0%;
+}
+.card4{
+    margin-left:5%;
+    width: 90%;
+}
+
+.card5{
+    width: 50%;
+    padding-top: 4%
+}
+.card6{
+
+   margin-left: 4% !important;
+   margin-right:4% !important;
+   margin-top: 4% !important;
+}
+.title{
+    margin: 2%;
+}
