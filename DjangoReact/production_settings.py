@@ -28,7 +28,7 @@ PROJECT_ROOT = BASE_DIR + "/DjangoReact/"
 SECRET_KEY = 'ul-zhhwd&06ua6&afas$ub_x$djbi+s9cdz$gga73lhi!goyzv'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 
 
@@ -150,5 +150,5 @@ ALLOWED_HOSTS = [
     "http://localhost:3000",
     "http://localhost:8000",
     "127.0.0.1",
-    "thrift2.herokuapp.com/",
+    "thrift2.herokuapp.com",
 ]
