@@ -35,7 +35,7 @@ class Customer(object):
     def __init__(self, customer_id):
         self.customer_id = customer_id
         response = requests.get('https://api.td-davinci.com/api/customers/' + customer_id + "/transactions",
-        headers = { 'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJDQlAiLCJ0ZWFtX2lkIjoiYTQ4MjM5ODMtZTExOS0zMDIxLWI1ZDMtZDM3ZDZmM2NjNTgyIiwiZXhwIjo5MjIzMzcyMDM2ODU0Nzc1LCJhcHBfaWQiOiIwOGRmYmFhMC03ZWI5LTQxM2ItOGQ0NS0wMGE0NmY4ZTAyYzAifQ.JKMjg-_quhsyB7c0ICdN1u-8yG44wzNlFpNYpCjoR6o' })
+        headers = { 'Authorization': '' })
         response_data = response.json() 
         self.customer_data = json.loads(response.text)
         
@@ -48,7 +48,7 @@ class Customer(object):
         
 def get_customer_average_spending(customer_id):
     response = requests.get('https://api.td-davinci.com/api/customers/' + customer_id + "/transactions",
-        headers = { 'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJDQlAiLCJ0ZWFtX2lkIjoiYTQ4MjM5ODMtZTExOS0zMDIxLWI1ZDMtZDM3ZDZmM2NjNTgyIiwiZXhwIjo5MjIzMzcyMDM2ODU0Nzc1LCJhcHBfaWQiOiIwOGRmYmFhMC03ZWI5LTQxM2ItOGQ0NS0wMGE0NmY4ZTAyYzAifQ.JKMjg-_quhsyB7c0ICdN1u-8yG44wzNlFpNYpCjoR6o' })
+        headers = { 'Authorization': '' })
     response_data = response.json()
     
     data = json.loads(response.text)
